@@ -116,12 +116,12 @@
 
 /* Begin PBXFileReference section */
 		0809D3C61E8263CB0052F999 /* libRCTHeadless.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTHeadless.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		0809D3E11E8264BB0052F999 /* RCTHeadlessTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTHeadlessTask.h; path = ../../RCTHeadlessTask.h; sourceTree = "<group>"; };
-		0809D3E21E8264BB0052F999 /* RCTHeadlessTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTHeadlessTask.m; path = ../../RCTHeadlessTask.m; sourceTree = "<group>"; };
-		0809D3E31E8264BB0052F999 /* RCTHeadlessTaskController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTHeadlessTaskController.h; path = ../../RCTHeadlessTaskController.h; sourceTree = "<group>"; };
-		0809D3E41E8264BB0052F999 /* RCTHeadlessTaskController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTHeadlessTaskController.m; path = ../../RCTHeadlessTaskController.m; sourceTree = "<group>"; };
-		0809D3E51E8264BB0052F999 /* RCTHeadlessTaskSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTHeadlessTaskSupport.h; path = ../../RCTHeadlessTaskSupport.h; sourceTree = "<group>"; };
-		0809D3E61E8264BB0052F999 /* RCTHeadlessTaskSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTHeadlessTaskSupport.m; path = ../../RCTHeadlessTaskSupport.m; sourceTree = "<group>"; };
+		0809D3E11E8264BB0052F999 /* RCTHeadlessTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTHeadlessTask.h; sourceTree = "<group>"; };
+		0809D3E21E8264BB0052F999 /* RCTHeadlessTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTHeadlessTask.m; sourceTree = "<group>"; };
+		0809D3E31E8264BB0052F999 /* RCTHeadlessTaskController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTHeadlessTaskController.h; sourceTree = "<group>"; };
+		0809D3E41E8264BB0052F999 /* RCTHeadlessTaskController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTHeadlessTaskController.m; sourceTree = "<group>"; };
+		0809D3E51E8264BB0052F999 /* RCTHeadlessTaskSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTHeadlessTaskSupport.h; sourceTree = "<group>"; };
+		0809D3E61E8264BB0052F999 /* RCTHeadlessTaskSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTHeadlessTaskSupport.m; sourceTree = "<group>"; };
 		08880E111E93EFC200F2D0E2 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = ../../WebSocket/RCTWebSocket.xcodeproj; sourceTree = "<group>"; };
 		08E002151E8E83FB00396E66 /* RCTHeadlessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCTHeadlessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08E002171E8E83FC00396E66 /* RCTHeadlessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTHeadlessTests.m; sourceTree = "<group>"; };
@@ -182,7 +182,8 @@
 				0809D3E51E8264BB0052F999 /* RCTHeadlessTaskSupport.h */,
 				0809D3E61E8264BB0052F999 /* RCTHeadlessTaskSupport.m */,
 			);
-			path = RCTHeadless;
+			name = RCTHeadless;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		08880E121E93EFC200F2D0E2 /* Products */ = {
@@ -481,7 +482,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -522,7 +523,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
