@@ -327,7 +327,7 @@ var Site = React.createClass({
           {/* Mailchimp Inline form-submission script for the React Native newsletter sign up form */}
           <script
             type="text/javascript"
-            src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
+            src="//downloads.mailchimp.com.s3.amazonaws.com/js/mc-validate.js"
           />
           <script
             type="text/javascript"
